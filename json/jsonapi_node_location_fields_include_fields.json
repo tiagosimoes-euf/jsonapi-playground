@@ -1,0 +1,132 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http:\\/\\/jsonapi.org\\/format\\/1.0\\/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--location",
+      "id": "8274c5a7-ffa0-4122-9592-adf144652c14",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/8274c5a7-ffa0-4122-9592-adf144652c14?resourceVersion=id%3A7"
+        }
+      },
+      "attributes": {
+        "title": "Leiria"
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "05ac23ed-2776-4ed9-a48e-75c3c30737ab",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/05ac23ed-2776-4ed9-a48e-75c3c30737ab?resourceVersion=id%3A8"
+        }
+      },
+      "attributes": {
+        "title": "Aveiro"
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "66f22adc-38b5-4888-9dd8-5377002317a4",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/66f22adc-38b5-4888-9dd8-5377002317a4?resourceVersion=id%3A9"
+        }
+      },
+      "attributes": {
+        "title": "Budapest"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "node--bicycle",
+      "id": "cfe260e6-fa18-45c1-a3e5-9255dfcee81f",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/bicycle\\/cfe260e6-fa18-45c1-a3e5-9255dfcee81f?resourceVersion=id%3A6"
+        }
+      },
+      "attributes": {
+        "title": "Amarelinha",
+        "field_brand": null,
+        "field_gear_ratio": "1\\/1",
+        "field_wheel_size": 24
+      }
+    },
+    {
+      "type": "node--bicycle",
+      "id": "bee8cbb4-3048-4b26-ae45-2c31c8accb66",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/bicycle\\/bee8cbb4-3048-4b26-ae45-2c31c8accb66?resourceVersion=id%3A1"
+        }
+      },
+      "attributes": {
+        "title": "Rocky",
+        "field_brand": "B\\u0027twin",
+        "field_gear_ratio": "3\\/8",
+        "field_wheel_size": 26
+      }
+    },
+    {
+      "type": "node--bicycle",
+      "id": "3bde852a-f107-4b03-a9da-8447a4299b01",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/bicycle\\/3bde852a-f107-4b03-a9da-8447a4299b01?resourceVersion=id%3A4"
+        }
+      },
+      "attributes": {
+        "title": "Sashin",
+        "field_brand": null,
+        "field_gear_ratio": "2\\/5",
+        "field_wheel_size": 28
+      }
+    },
+    {
+      "type": "node--bicycle",
+      "id": "0a069bd3-2a5f-43b1-82fa-59f48c9867f4",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/bicycle\\/0a069bd3-2a5f-43b1-82fa-59f48c9867f4?resourceVersion=id%3A5"
+        }
+      },
+      "attributes": {
+        "title": "Esmaltina",
+        "field_brand": "Esmaltina",
+        "field_gear_ratio": "3\\/6",
+        "field_wheel_size": 26
+      }
+    },
+    {
+      "type": "node--bicycle",
+      "id": "33e10963-4433-4c43-aa80-252d48847660",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/bicycle\\/33e10963-4433-4c43-aa80-252d48847660?resourceVersion=id%3A2"
+        }
+      },
+      "attributes": {
+        "title": "Mero",
+        "field_brand": "Merowing",
+        "field_gear_ratio": "3\\/7",
+        "field_wheel_size": 28
+      }
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location?fields%5Bnode--bicycle%5D=title%2Cfield_brand%2Cfield_gear_ratio%2Cfield_wheel_size\\u0026fields%5Bnode--location%5D=title\\u0026include=field_bikes"
+    }
+  }
+}

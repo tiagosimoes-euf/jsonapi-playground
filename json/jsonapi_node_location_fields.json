@@ -1,0 +1,55 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http:\\/\\/jsonapi.org\\/format\\/1.0\\/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--location",
+      "id": "8274c5a7-ffa0-4122-9592-adf144652c14",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/8274c5a7-ffa0-4122-9592-adf144652c14?resourceVersion=id%3A7"
+        }
+      },
+      "attributes": {
+        "title": "Leiria"
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "05ac23ed-2776-4ed9-a48e-75c3c30737ab",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/05ac23ed-2776-4ed9-a48e-75c3c30737ab?resourceVersion=id%3A8"
+        }
+      },
+      "attributes": {
+        "title": "Aveiro"
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "66f22adc-38b5-4888-9dd8-5377002317a4",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/66f22adc-38b5-4888-9dd8-5377002317a4?resourceVersion=id%3A9"
+        }
+      },
+      "attributes": {
+        "title": "Budapest"
+      }
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location?fields%5Bnode--location%5D=title"
+    }
+  }
+}

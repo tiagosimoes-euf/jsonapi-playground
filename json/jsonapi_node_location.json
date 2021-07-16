@@ -1,0 +1,117 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http:\\/\\/jsonapi.org\\/format\\/1.0\\/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--location",
+      "id": "8274c5a7-ffa0-4122-9592-adf144652c14",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/8274c5a7-ffa0-4122-9592-adf144652c14?resourceVersion=id%3A7"
+        }
+      },
+      "attributes": {
+        "title": "Leiria"
+      },
+      "relationships": {
+        "field_bikes": {
+          "data": [
+            {
+              "type": "node--bicycle",
+              "id": "cfe260e6-fa18-45c1-a3e5-9255dfcee81f"
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/8274c5a7-ffa0-4122-9592-adf144652c14\\/field_bikes?resourceVersion=id%3A7"
+            },
+            "self": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/8274c5a7-ffa0-4122-9592-adf144652c14\\/relationships\\/field_bikes?resourceVersion=id%3A7"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "05ac23ed-2776-4ed9-a48e-75c3c30737ab",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/05ac23ed-2776-4ed9-a48e-75c3c30737ab?resourceVersion=id%3A8"
+        }
+      },
+      "attributes": {
+        "title": "Aveiro"
+      },
+      "relationships": {
+        "field_bikes": {
+          "data": [
+            {
+              "type": "node--bicycle",
+              "id": "bee8cbb4-3048-4b26-ae45-2c31c8accb66"
+            },
+            {
+              "type": "node--bicycle",
+              "id": "3bde852a-f107-4b03-a9da-8447a4299b01"
+            },
+            {
+              "type": "node--bicycle",
+              "id": "0a069bd3-2a5f-43b1-82fa-59f48c9867f4"
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/05ac23ed-2776-4ed9-a48e-75c3c30737ab\\/field_bikes?resourceVersion=id%3A8"
+            },
+            "self": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/05ac23ed-2776-4ed9-a48e-75c3c30737ab\\/relationships\\/field_bikes?resourceVersion=id%3A8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--location",
+      "id": "66f22adc-38b5-4888-9dd8-5377002317a4",
+      "links": {
+        "self": {
+          "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/66f22adc-38b5-4888-9dd8-5377002317a4?resourceVersion=id%3A9"
+        }
+      },
+      "attributes": {
+        "title": "Budapest"
+      },
+      "relationships": {
+        "field_bikes": {
+          "data": [
+            {
+              "type": "node--bicycle",
+              "id": "33e10963-4433-4c43-aa80-252d48847660"
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/66f22adc-38b5-4888-9dd8-5377002317a4\\/field_bikes?resourceVersion=id%3A9"
+            },
+            "self": {
+              "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location\\/66f22adc-38b5-4888-9dd8-5377002317a4\\/relationships\\/field_bikes?resourceVersion=id%3A9"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "https:\\/\\/jsonapi.euf.lab\\/jsonapi\\/node\\/location"
+    }
+  }
+}
