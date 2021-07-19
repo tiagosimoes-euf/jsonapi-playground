@@ -1,0 +1,51 @@
+uuid: 2f076acf-88ae-408f-a809-6825cf476762
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bicycle.field_brand
+    - field.field.node.bicycle.field_gear_ratio
+    - field.field.node.bicycle.field_type
+    - field.field.node.bicycle.field_wheel_size
+    - node.type.bicycle
+  module:
+    - options
+    - user
+id: node.bicycle.default
+targetEntityType: node
+bundle: bicycle
+mode: default
+content:
+  field_brand:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_gear_ratio:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_type:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_wheel_size:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  links: true

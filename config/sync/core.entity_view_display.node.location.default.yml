@@ -1,0 +1,28 @@
+uuid: 5798bf18-d922-4cd5-8b05-e8d796514e53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.location.field_bikes
+    - node.type.location
+  module:
+    - user
+id: node.location.default
+targetEntityType: node
+bundle: location
+mode: default
+content:
+  field_bikes:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

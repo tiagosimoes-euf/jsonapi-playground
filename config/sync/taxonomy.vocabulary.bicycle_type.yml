@@ -1,0 +1,8 @@
+uuid: aa0914a2-7895-4c99-8fa2-7c050938d716
+langcode: en
+status: true
+dependencies: {  }
+name: 'Bicycle type'
+vid: bicycle_type
+description: ''
+weight: 0

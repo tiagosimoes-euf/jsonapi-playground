@@ -1,0 +1,28 @@
+uuid: 7c6f3070-4320-4edd-a1af-9f8854131a0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bicycle.field_brand
+    - field.field.node.bicycle.field_gear_ratio
+    - field.field.node.bicycle.field_type
+    - field.field.node.bicycle.field_wheel_size
+    - node.type.bicycle
+  module:
+    - user
+id: node.bicycle.teaser
+targetEntityType: node
+bundle: bicycle
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_brand: true
+  field_gear_ratio: true
+  field_type: true
+  field_wheel_size: true

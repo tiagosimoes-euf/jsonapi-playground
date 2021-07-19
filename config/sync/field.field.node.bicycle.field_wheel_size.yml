@@ -1,0 +1,21 @@
+uuid: 882b7099-fde9-44fe-baa4-495981fa5cd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wheel_size
+    - node.type.bicycle
+  module:
+    - options
+id: node.bicycle.field_wheel_size
+field_name: field_wheel_size
+entity_type: node
+bundle: bicycle
+label: 'Wheel size'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

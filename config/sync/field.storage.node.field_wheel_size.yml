@@ -1,0 +1,36 @@
+uuid: 04ad7220-6917-4e73-abba-c1cb2d911ee2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_wheel_size
+field_name: field_wheel_size
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 24
+      label: '24'
+    -
+      value: !!float 26
+      label: '26'
+    -
+      value: 27.5
+      label: '27.5'
+    -
+      value: !!float 28
+      label: '28'
+    -
+      value: !!float 29
+      label: '29'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

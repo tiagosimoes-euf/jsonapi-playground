@@ -1,0 +1,19 @@
+uuid: 5e70630f-eb39-4e7b-bb12-b6de6b999e05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gear_ratio
+    - node.type.bicycle
+id: node.bicycle.field_gear_ratio
+field_name: field_gear_ratio
+entity_type: node
+bundle: bicycle
+label: 'Gear ratio'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

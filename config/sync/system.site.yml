@@ -1,0 +1,14 @@
+name: 'JSON:API playground'
+mail: no-reply@uni-foundation.eu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: uTrL6mR0Ih-3HisI2Ygr-8cDdsvEoQFwzDrMhF16-3Y
+uuid: 47691ef5-6114-4d0f-b25b-37e8513db794

@@ -1,0 +1,22 @@
+uuid: 7ce96960-670e-4b36-99e1-cadfec18b6ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - euf_bootstrap_sass
+_core:
+  default_config_hash: EHyKb7zy6XajKr-yahgSApx6_Gnd_nyPcxL9ZvdZQhE
+id: euf_bootstrap_sass_content
+theme: euf_bootstrap_sass
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

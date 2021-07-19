@@ -1,0 +1,22 @@
+uuid: 72f4a94a-308e-4d06-977e-823312512ff0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - euf_bootstrap_sass
+_core:
+  default_config_hash: TTGrybupvXK61VmVsOr_RtCWfXVo0s6fItB49b4tvF0
+id: euf_bootstrap_sass_help
+theme: euf_bootstrap_sass
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

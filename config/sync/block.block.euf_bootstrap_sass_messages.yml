@@ -1,0 +1,22 @@
+uuid: ef12fc69-0c58-402f-b116-a3ca8663f9cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - euf_bootstrap_sass
+_core:
+  default_config_hash: vo2Vib_d-VNohtkzTXzoIgZXec_RQgDTLO3tUBQtfyc
+id: euf_bootstrap_sass_messages
+theme: euf_bootstrap_sass
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
