@@ -58,8 +58,6 @@ module:
   euf_base: 1000
 theme:
   bootstrap_barrio: 0
-  stable: 0
-  classy: 0
   euf_bootstrap_sass: 0
   seven: 0
   adminimal_theme: 0
