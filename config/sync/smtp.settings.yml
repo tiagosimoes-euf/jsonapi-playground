@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: ymi4auXcaE2ommQqw4bLOTxkBoD2C2QALKGO9c2QSWQ
 smtp_on: true
 smtp_host: smtp-relay.gmail.com
 smtp_hostbackup: ''
@@ -13,5 +15,3 @@ smtp_allowhtml: '0'
 smtp_test_address: ''
 smtp_debugging: false
 prev_mail_system: php_mail
-_core:
-  default_config_hash: ymi4auXcaE2ommQqw4bLOTxkBoD2C2QALKGO9c2QSWQ

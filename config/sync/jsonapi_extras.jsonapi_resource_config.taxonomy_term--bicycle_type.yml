@@ -64,23 +64,23 @@ resourceFields:
     enhancer:
       id: ''
   name:
+    disabled: false
     fieldName: name
     publicName: name
     enhancer:
       id: ''
-    disabled: false
   description:
+    disabled: false
     fieldName: description
     publicName: description
     enhancer:
       id: ''
-    disabled: false
   weight:
+    disabled: false
     fieldName: weight
     publicName: weight
     enhancer:
       id: ''
-    disabled: false
   parent:
     disabled: true
     fieldName: parent

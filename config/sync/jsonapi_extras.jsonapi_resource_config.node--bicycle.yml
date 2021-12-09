@@ -70,11 +70,11 @@ resourceFields:
     enhancer:
       id: ''
   title:
+    disabled: false
     fieldName: title
     publicName: title
     enhancer:
       id: ''
-    disabled: false
   created:
     disabled: true
     fieldName: created
@@ -130,26 +130,26 @@ resourceFields:
     enhancer:
       id: ''
   field_brand:
+    disabled: false
     fieldName: field_brand
     publicName: field_brand
     enhancer:
       id: ''
-    disabled: false
   field_gear_ratio:
+    disabled: false
     fieldName: field_gear_ratio
     publicName: field_gear_ratio
     enhancer:
       id: ''
-    disabled: false
   field_type:
+    disabled: false
     fieldName: field_type
     publicName: field_type
     enhancer:
       id: ''
-    disabled: false
   field_wheel_size:
+    disabled: false
     fieldName: field_wheel_size
     publicName: field_wheel_size
     enhancer:
       id: ''
-    disabled: false
