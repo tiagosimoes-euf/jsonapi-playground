@@ -4076,16 +4076,16 @@
         },
         {
             "name": "euf/openid_connect_eufidp",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EuropeanUniversityFoundation/openid_connect_eufidp.git",
-                "reference": "58e404c07c9a36067e41b3fd016dbd801d260618"
+                "reference": "fb8a1fccf0abb288c665d286b9cde1f4841eeddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EuropeanUniversityFoundation/openid_connect_eufidp/zipball/58e404c07c9a36067e41b3fd016dbd801d260618",
-                "reference": "58e404c07c9a36067e41b3fd016dbd801d260618",
+                "url": "https://api.github.com/repos/EuropeanUniversityFoundation/openid_connect_eufidp/zipball/fb8a1fccf0abb288c665d286b9cde1f4841eeddc",
+                "reference": "fb8a1fccf0abb288c665d286b9cde1f4841eeddc",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -4095,20 +4095,20 @@
                 "issues": "https://github.com/EuropeanUniversityFoundation/openid_connect_eufidp/issues",
                 "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_eufidp"
             },
-            "time": "2021-10-05T12:14:28+00:00"
+            "time": "2022-04-19T13:02:44+00:00"
         },
         {
             "name": "euf/openid_connect_myacademicid",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid.git",
-                "reference": "1aa45bc6e738ce48950af874e77be72e9caff9f6"
+                "reference": "ce14859164761555dd07be91abf95f9f2c14067c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EuropeanUniversityFoundation/openid_connect_myacademicid/zipball/1aa45bc6e738ce48950af874e77be72e9caff9f6",
-                "reference": "1aa45bc6e738ce48950af874e77be72e9caff9f6",
+                "url": "https://api.github.com/repos/EuropeanUniversityFoundation/openid_connect_myacademicid/zipball/ce14859164761555dd07be91abf95f9f2c14067c",
+                "reference": "ce14859164761555dd07be91abf95f9f2c14067c",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -4118,7 +4118,7 @@
                 "issues": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid/issues",
                 "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid"
             },
-            "time": "2021-10-05T12:18:38+00:00"
+            "time": "2022-04-19T13:06:08+00:00"
         },
         {
             "name": "grasmash/expander",
@@ -8547,16 +8547,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.6.0",
+            "version": "v4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
+                "reference": "043a03c95a2ad6738f85b65e53b9dbdfb03b8d10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
-                "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/043a03c95a2ad6738f85b65e53b9dbdfb03b8d10",
+                "reference": "043a03c95a2ad6738f85b65e53b9dbdfb03b8d10",
                 "shasum": ""
             },
             "replace": {
@@ -8596,15 +8596,9 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.0"
+                "source": "https://github.com/twbs/bootstrap/tree/v4.6.1"
             },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/bootstrap",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2021-01-19T16:16:38+00:00"
+            "time": "2021-10-28T14:45:21+00:00"
         },
         {
             "name": "twig/twig",
